@@ -103,14 +103,30 @@ footer {
 }
 
 /* =====================================================
-   FORCE header styling (theme override)
+   Strong header banner (final override)
    ===================================================== */
 
-.site-header,
-.page-header,
-header.site-header {
-  background-color: #5b3fd6 !important; /* academic purple */
-  padding-top: 2.75rem !important;
-  padding-bottom: 2.75rem !important;
+.site-header {
+  background-color: #5b3fd6;
+  padding: 4rem 1.5rem;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
+
+.header-subtitle {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.02em;
 }
 
