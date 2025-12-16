@@ -101,3 +101,16 @@ footer {
   color: #777;
   border-top: 1px solid #e6e6e6;
 }
+
+/* =====================================================
+   FORCE header styling (theme override)
+   ===================================================== */
+
+.site-header,
+.page-header,
+header.site-header {
+  background-color: #5b3fd6 !important; /* academic purple */
+  padding-top: 2.75rem !important;
+  padding-bottom: 2.75rem !important;
+}
+
