@@ -35,21 +35,11 @@ a {
 .hero {
   display: flex;
   align-items: center;
-  min-height: 70vh;
+  min-height: 60vh;
   padding: 4rem 1.5rem;
-  background:
-    linear-gradient(
-      rgba(255,255,255,0.85),
-      rgba(255,255,255,0.85)
-    ),
-    url("/assets/hero-human-ai.jpg");
-  background-size: cover;
-  background-position: center;
+  background: #ffffff;
 }
 
-.hero-text {
-  max-width: 800px;
-}
 
 .hero h1 {
   font-size: 3rem;
